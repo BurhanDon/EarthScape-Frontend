@@ -1,0 +1,141 @@
+.whole{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+}
+.videoContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+}
+  
+  .videoLogo {
+    width: 100%;
+    height: auto;
+  }
+  
+  .videoOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    border-radius: 8px;
+    max-width: 80%; /* Restrict width for responsiveness */
+  }
+  
+  .videoTitle {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: "Poppins", serif;
+  }
+  
+  .videoLine,
+  .videoLine2 {
+    font-size: 1.2rem;
+    margin: 0.3rem 0;
+    font-family: "Poppins", serif;
+  }
+  
+  .aboutButton {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 600;
+    height: 55px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .aboutButton:focus {
+    color: #171e29;
+  }
+  
+  .aboutButton:hover {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+  }
+  
+  .aboutButton:active {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+  }
+ 
+  .CA{
+    text-decoration:underline;
+    font-style:italic;
+  }
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .videoTitle {
+      font-size: 0.8rem;
+    }
+    
+    .videoLine,
+    .videoLine2 {
+      font-size: 0.6rem;
+    }
+  
+    .aboutButton {
+      font-size:12px;
+      height:30px
+    }
+  }
+ 
+.info{
+  margin-top:5vh;
+  margin-bottom:10px;
+  padding-top:10vh;
+  padding-bottom:15vh;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+}
+.headline{
+  color:#31511E;
+  font-family: "Edu AU VIC WA NT Dots", serif;
+  /* border:dotted 1px #31511E ; */
+  font-weight:500;
+  padding-top:20px;
+  text-align:center;
+  
+}
+
+.Description{
+  font-family:"Afacad Flux", serif;
+  font-size:3.5vh;
+  padding-bottom:20px;
+  text-align:center;
+}
+
+@media (max-width:768px){
+  .headline{
+    font-size: 3.5vh;
+  }
+  .Description{
+    font-size: 2.5vh;
+  }
+}
+ 

@@ -1,0 +1,106 @@
+.Weather {
+  position: relative;
+  background-image: url("src/assets/weather3.jpg"); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh; /* Full screen height, adjust if needed */
+  /* width:100%; */
+  color: white;
+}
+
+@media (max-width: 550px) {
+  .Weather {
+    min-height: 95vh; /* Full screen height, adjust if needed */
+  }
+}
+
+.containerW {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+  height: 90vh;
+  /* margin:auto; */
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-between; */
+}
+
+.nameW {
+  font-family: "Poppins", serif;
+  font-size: 13px;
+}
+
+.tempW {
+  font-size: 40px;
+  font-family: "Afacad Flux", serif;
+}
+
+.descriptionW {
+  font-family: "Poppins", serif;
+}
+
+.noteW {
+  font-family: "Poppins", serif;
+  text-align: center;
+}
+
+.feelsW,
+.humidityW,
+.windW {
+  font-family: "Afacad Flux", serif;
+}
+
+.para {
+  font-family: "Poppins", serif;
+}
+
+@media (max-width: 550px) {
+  .feelsW,
+  .humidityW,
+  .windW {
+    font-size: 10px;
+  }
+  .para {
+    font-size: 11px;
+  }
+}
+
+.containerW .descriptionW {
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.searchW {
+  text-align: center;
+  padding: 1rem;
+}
+
+.searchW input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", serif;
+}
+
+::placeholder {
+  color: white;
+}

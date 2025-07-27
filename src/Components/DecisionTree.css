@@ -1,0 +1,47 @@
+.dtHeading{
+    font-family:"Poppins", serif;
+    text-align:center;
+    text-decoration:underline;
+    padding:20px;
+}
+
+.image-containerdt{
+    width:100%;
+    display:block;
+    text-align:center;
+    font-family:"Afacad Flux",serif;
+}
+
+.dtImage{
+    width:120vh;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.overview{
+    padding:20px;
+}
+
+.headingPara{
+    font-family:"Poppins", serif;
+    font-weight:500;
+}
+.steps{
+    font-family:"Poppins", serif;
+}
+
+.paradt{
+    font-family:"Poppins", serif;
+    
+}
+
+.conclusion{
+    font-family:"Poppins", serif;
+    font-weight:500;
+    font-style:italic;
+}
+
+@media (max-width:800px){
+    .dtImage{
+        width:50vh;
+    }
+}
